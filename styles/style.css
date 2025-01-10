@@ -1,7 +1,7 @@
 .fire-font {
     font-family: "Work Sans", serif;
     font-optical-sizing: auto;
-    font-weight: normal;
+    font-weight: auto;
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
@@ -44,9 +44,61 @@ body {
 }
 
 /* Banner Section */
-.banner {
+
+.banner-content {
     display: flex;
-    padding: 40px;
-    background-color: #e8f5e9;
-    gap: 20px;
-  }
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 160px 0 160px;
+    padding: 50px 0;
+    background-color: #C6E4D6;
+    height: 560px;
+    width: auto;
+    border-radius: 24px;
+}
+
+.banner-image {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 60px 80px auto;
+
+}
+
+.banner-text {
+    max-width: 50%;
+    display: block;
+    text-decoration: none;
+    line-height: 67.2px;
+    margin: 117px auto 117px 60px;
+}
+
+.banner-text h2 {
+    font-weight: 500px;
+    font-size: 24px;
+    color: #0E0E0E80;
+    line-height: 28.8px;
+    margin-bottom: -30px;
+}
+
+.banner-text p {
+    font-weight: 700;
+    font-size: 56px;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+    display: block;
+}
+
+.explore-btn {
+    padding: 15px 30px;
+    background-color: #006A50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.explore-btn:hover {
+    background-color: #004300;
+}
